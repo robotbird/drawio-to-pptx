@@ -1,6 +1,6 @@
 ---
 name: drawio-to-pptx
-description: 'Convert a draw.io (.drawio) diagram into a NATIVE, EDITABLE PowerPoint (.pptx) — every box becomes an editable autoshape/text box and every arrow becomes an editable connector with arrowheads, NOT a flat image. Use when the user wants a .drawio (architecture, flowchart, ERD, etc.) turned into PowerPoint they can edit, or says "make this drawio editable in PPT / 把drawio转成ppt / 转成原生ppt / 在ppt里修改". Pairs with the drawio-skill — generate the .drawio, then convert it to an editable deck.'
+description: 'Convert a draw.io (.drawio) diagram into a NATIVE, EDITABLE PowerPoint (.pptx) — every box becomes an editable autoshape/text box and every arrow becomes an editable connector with arrowheads, NOT a flat image. Use when the user wants a .drawio (architecture, flowchart, ERD, etc.) turned into PowerPoint they can edit, or says "make this drawio editable in PPT / convert drawio to ppt / convert to native ppt / make it editable in ppt". Pairs with the drawio-skill — generate the .drawio, then convert it to an editable deck.'
 ---
 
 # Drawio → Native Editable PPTX

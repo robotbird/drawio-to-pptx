@@ -1,13 +1,20 @@
-# Drawio → Native Editable PPTX
+<p align="center">
+  <img src="docs/cover.png" alt="drawio-to-pptx" width="820">
+</p>
 
-> Convert a **draw.io** (`.drawio`) diagram into a **native, editable** PowerPoint (`.pptx`) — every box becomes a real autoshape / text box, and every arrow becomes a real connector with arrowheads. The slide is **not a flat image**: move boxes, recolor them, edit text, and re-route arrows in PowerPoint / Keynote / WPS.
+<h1 align="center">Drawio → Native Editable PPTX</h1>
 
-![License](https://img.shields.io/github/license/robotbird/drawio-to-pptx?color=blue)
-![Python](https://img.shields.io/badge/python-3.x-3776AB?logo=python&logoColor=white)
-![python-pptx](https://img.shields.io/badge/python--pptx-required-1f425f)
-![lxml](https://img.shields.io/badge/lxml-required-green)
+<p align="center">
+  Convert a <b>draw.io</b> (<code>.drawio</code>) diagram into a <b>native, editable</b> PowerPoint (<code>.pptx</code>) — every box becomes a real autoshape / text box, and every arrow becomes a real connector with arrowheads. The slide is <b>not a flat image</b>: move boxes, recolor them, edit text, and re-route arrows in PowerPoint / Keynote / WPS.
+</p>
 
-把 `.drawio` 转成**原生可编辑**的 PPT —— 每个框是真正的自选图形，每条箭头是真正的连线。不是一张图片，所有元素都能在 PPT 里改。
+<p align="center">
+  <a href="https://x.com/PMAndDog"><img src="https://img.shields.io/badge/X-%40PMAndDog-black?logo=x&logoColor=white" alt="X @PMAndDog"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/robotbird/drawio-to-pptx?color=blue" alt="License"></a>
+  <img src="https://img.shields.io/badge/python-3.x-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/python--pptx-required-1f425f" alt="python-pptx">
+  <img src="https://img.shields.io/badge/lxml-required-green" alt="lxml">
+</p>
 
 ---
 
@@ -86,7 +93,7 @@ A high shape count (one per draw.io cell) means it converted correctly; a single
 
 ## 🧩 Also a Claude Code skill
 
-This repo is structured as a [Claude Code](https://claude.com/claude-code) **skill** (see [`SKILL.md`](SKILL.md)). If you use Claude Code, point it at the repo and ask, e.g. *"把 drawio 转成原生 ppt"* — it will resolve deps, run the converter, and verify the output for you.
+This repo is structured as a [Claude Code](https://claude.com/claude-code) **skill** (see [`SKILL.md`](SKILL.md)). If you use Claude Code, point it at the repo and ask, e.g. *"convert this drawio into a native editable ppt"* — it will resolve deps, run the converter, and verify the output for you.
 
 ## 📁 Project structure
 
@@ -116,4 +123,4 @@ MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
-**叶鹏** · [@robotbird](https://github.com/robotbird)
+**Ye Peng** · [@robotbird](https://github.com/robotbird) · [𝕏 @PMAndDog](https://x.com/PMAndDog)
